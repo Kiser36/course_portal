@@ -1,6 +1,7 @@
 # course_portal
 code for group work course portal system
- Default Login CredentialsUse the following accounts to test the different logic modules:  1. Administrator RoleRegistration No: admin Password: admin123
+ Default Login CredentialsUse the following accounts to test the different logic modules:  1. Administrator RoleRegistration No: admin 
+ Password: admin123
  Access: Full CRUD operations on the course catalog. 
  2. Student RoleRegistration No: 2024-B071-22936   Password: 12345: Course search and enrollment features.  
 Members Details
@@ -26,7 +27,7 @@ Host: localhost
 User: root
 Password: "" (empty)
 
-4. Launching the System
+5. Launching the System
 Open your web browser and enter the following URL:
 
 http://localhost/courseportal/index.php
