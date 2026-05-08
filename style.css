@@ -1,0 +1,104 @@
+/* 1. Professional Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Industry standard "Not Quite White" background */
+    background-color: #f8f9fa;
+    font-family: 'Inter', -apple-system, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Professional accent top bar */
+    border-top: 6px solid #2575fc;
+}
+
+/* 2. Professional Portal Title */
+.portal-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 2.2rem;
+    color: #1a1a1a;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* 3. The Professional Card Container */
+.custom-card {
+    background: #ffffff;
+    border-radius: 12px;
+    /* Soft shadow for depth on off-white background */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 420px;
+    padding: 2.5rem;
+    border: 1px solid #e9ecef;
+}
+
+/* 4. Form Labels and Inputs */
+.form-label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #4b5563;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 1.25rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #2575fc;
+    box-shadow: 0 0 0 3px rgba(37, 117, 252, 0.1);
+}
+
+/* 5. Professional Primary Button */
+.btn-primary-custom {
+    width: 100%;
+    padding: 14px;
+    background-color: #2575fc; /* Solid blue for a cleaner look */
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #1e60d2;
+    transform: translateY(-1px);
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.footer-text a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 600;
+}
